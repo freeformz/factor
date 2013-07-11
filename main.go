@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-var dyno = "web.1"
+var dyno = os.GetEnv("DYNO")
 var connect = "2ms" // figure out how to measure
 var myPort = os.Getenv("PROXY_PORT")
 var targetPort = os.Getenv("PORT")
