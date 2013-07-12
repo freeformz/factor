@@ -12,4 +12,6 @@
 ### Notifications
   * New App Release: Download slug, start new version, start proxying new requests to new app version, stop proxying request to old app version, shutdown old app version.
   * Shutdown: Stop accepting new connections, finish existing connections, and terminate instance.
+  * Maintenance On: serve maintenance page instead of proxy
+  * Maintenance Off: turn proxy on
   * Update: Download new factor version and migrate existing app to it.
